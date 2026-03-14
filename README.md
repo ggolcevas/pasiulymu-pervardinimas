@@ -45,6 +45,14 @@ ir tik tada „Pasiūlymo failų pervardinimas“:
 
 ![image](https://github.com/ggolcevas/pasiulymu-pervardinimas/blob/main/docs/images/run-run.png)
 
+Jeigu atsiranda toks langas 
+
+![image](https://github.com/ggolcevas/pasiulymu-pervardinimas/blob/main/docs/images/warning.png)
+
+spaudžiame „Open“.
+
+Netrukus failai esantys kataloge „files“ bus pervardinti. Atsižvelgiant į failų kiekį, tai gali užtrukti iki kelių sekundžių.
+
 <H1>Jeigu nesiseka</H1>
 
 Jeigu, kaip aprašyta aukščiau, neatsiranda pasirinkimas „Pasiūlymo failų pervardinimas“, to priežastys gali būti kelios:
