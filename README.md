@@ -57,6 +57,15 @@ Jeigu, kaip aprašyta aukščiau, neatsiranda pasirinkimas „Pasiūlymo failų 
 
 Taip pat, kartais pervardinimas gali būti nesėkmingas dėl to, kad failo kelias ir pavadinimas yra per ilgi. Tai susiję su Windows sistemos apribojimais, todėl pabandykite išarchyvuoto pasiūlymų katalogą padėti kur nors „sekliau“, pavyzdžiui ne „C:\Users\vartotojo-vardas\Documents\Mano pasiūlymų failai\Pirkimas elektroninės naujos sistemos 2026 metų, galutinė versija 2027-01-05 atnaujinta\visi pasiūlymai\UAB nebeprisikiškiakopusteliaudami\“, o pvz. C:\Dokumentai\Pasiūlymai1\
 
+Jeigu bandant įdiegti įrankį sistema jį užblokuoja ir rodo tokį pranešimą:
+
+![image](https://github.com/ggolcevas/pasiulymu-pervardinimas/blob/main/docs/images/blokavimas.png)
+
+tuomet reikėtų atsiųstą failą „setup.exe“ atblokuoti. Tam reikia dešiniuoju pelės klavišu nuspausti ant failo „setup.exe“, pasirinkti „Properties“, tuomet lange pažymėti „Unblock“ ir paspausti „OK“
+
+![image](https://github.com/ggolcevas/pasiulymu-pervardinimas/blob/main/docs/images/unblock.png)
+
+
 <H1>LICENCIJOS IR KITOS SĄLYGOS</H1>
 
 (c) 2026 Gediminas Golcevas
