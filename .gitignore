@@ -1,0 +1,13 @@
+
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.temp
+*.ps1xml
+*.exe
+*.msi
+Output/
+.vscode/
+.idea/
+.DS_Store
