@@ -9,9 +9,15 @@ Iš CVP IS parsisiuntus tiekėjo pasiūlymo archyvą (.zip failą) bei jį išar
 
 Įrankiui įdiegti ir naudoti administratoriaus teisių nereikia, todėl jis gali būti įdiegtas paties vartotojo. Vis dėlto, vartotojas yra pats atsakingas išsiaiškinti ar savarankiškai diegdamas programą darbo kompiuteryje nepažeis įstaigos vidaus politikos (tvarkos) dėl programų diegimo, naudojimo ir saugumo. Esant poreikiui rekomenduotina pasitarti su savo įstaigos informacinių technologijų specialistais. Be paruoštos naudoti įdiegimo programos taip pat yra pateikta pilnas programinis kodas, kad didesnio saugumo reikalavimų įstaigų IT specialistai galėtų patys įsitikinti programos saugumu arba organizuoti programos įdiegimą kitu būdu. 
 
+<H1>Padėka</H1>
+
+Įrankis yra nemokamas, bet jeigu norite, galite padėkoti naudodami šią nuorodą<a href="https://www.buymeacoffee.com/ggolcevas" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40">
+</a>
+
 <H1>Diegimo instrukcija</H1>
 
-Atsisiuntus įdiegimo failą setup.exe, jį reikia aktyvuoti du kartus spustelėjus pelės kairiuoju klavišu
+Atsisiuntus įdiegimo failą [⬇setup.exe](https://github.com/ggolcevas/pasiulymu-pervardinimas/releases/download/v1.0.0/Setup.exe), jį reikia aktyvuoti du kartus spustelėjus pelės kairiuoju klavišu.
 
 ![image](https://github.com/ggolcevas/pasiulymu-pervardinimas/blob/main/docs/images/setup-file.png)
 
@@ -41,6 +47,9 @@ O Windows 11 aplinkoje reikės pasirinkti „Show more options“:
 
 ![image](https://github.com/ggolcevas/pasiulymu-pervardinimas/blob/main/docs/images/run-more-options.png)
 
+Lietuviškoje versijoje pasirinkimas „Rodyti daugiau parinkčių“
+![image](https://github.com/ggolcevas/pasiulymu-pervardinimas/blob/main/docs/images/lt_versijoje_windows11.png)
+
 ir tik tada „Pasiūlymo failų pervardinimas“:
 
 ![image](https://github.com/ggolcevas/pasiulymu-pervardinimas/blob/main/docs/images/run-run.png)
@@ -62,12 +71,14 @@ Jeigu, kaip aprašyta aukščiau, neatsiranda pasirinkimas „Pasiūlymo failų 
 ![image](https://github.com/ggolcevas/pasiulymu-pervardinimas/blob/main/docs/images/klaida.jpg)
 
 2. dešinį pelės klavišą nuspaudėte ne ant failo "tender.xml" (tender), o kur nors šalia. Bandykite dar kartą – pelės žymeklis turi būti ant failo "tender.xml" tuo metu, kai spaudžiate pelės dešinį klavišą.
-
+<H2>Nesėkmingas pervardinimas</H2>
 Taip pat, kartais pervardinimas gali būti nesėkmingas dėl to, kad failo kelias ir pavadinimas yra per ilgi. Tai susiję su Windows sistemos apribojimais, todėl pabandykite išarchyvuoto pasiūlymų katalogą padėti kur nors „sekliau“, pavyzdžiui ne „C:\Users\vartotojo-vardas\Documents\Mano pasiūlymų failai\Pirkimas elektroninės naujos sistemos 2026 metų, galutinė versija 2027-01-05 atnaujinta\visi pasiūlymai\UAB nebeprisikiškiakopusteliaudami\“, o pvz. C:\Dokumentai\Pasiūlymai1\
-
+<H2>Įdiegimo blokavimas</H2>
 Jeigu bandant įdiegti įrankį sistema jį užblokuoja ir rodo tokį pranešimą:
 
 ![image](https://github.com/ggolcevas/pasiulymu-pervardinimas/blob/main/docs/images/blokavimas.png)
+
+Tokiu atveju pasirinkite: More info → Run anyway.
 
 tuomet reikėtų atsiųstą failą „setup.exe“ atblokuoti. Tam reikia dešiniuoju pelės klavišu nuspausti ant failo „setup.exe“, pasirinkti „Properties“, tuomet lange pažymėti „Unblock“ ir paspausti „OK“
 
