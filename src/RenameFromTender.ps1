@@ -170,4 +170,4 @@ foreach ($n in $nodes) {
 }
 
 Log "Apibendrinimas: pervardinta $renamed failų."
-Finalize-And-Pause
+
